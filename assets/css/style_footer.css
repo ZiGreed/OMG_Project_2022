@@ -19,7 +19,7 @@
     gap: 24px;
 }
 
-.location, .copyright p {
+.location p, .copyright p {
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.6;

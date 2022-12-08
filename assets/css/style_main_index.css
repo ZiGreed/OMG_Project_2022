@@ -20,12 +20,6 @@
     position: relative;
     padding-bottom: 164px;
     padding-top: 140px;
-    /* display: flex;
-    flex-flow: column wrap; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* padding-top: 66px;
-    padding-bottom: 64px; */
 }
 
 .bg-pattern-home-4-about-3 {
@@ -40,7 +34,7 @@
     bottom: 0px;
 }
 
-.header {
+.topic {
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
@@ -49,7 +43,7 @@
     margin: 0;
 }
 
-.header span {
+.topic span {
     color: #79C8C7;
 }
 
@@ -62,10 +56,12 @@
     width: 67px;
     height: 56px;
     position: absolute;
-    left: 39.76%;
-    right: 39.76%;
-    top: -16%;
-    /* bottom: 58.82%; */
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: -35px;
 }
 
 .persone_container {
@@ -89,7 +85,7 @@
 
 .persone {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     color: #79C8C7;
@@ -104,7 +100,7 @@
     font-size: 13px;
     line-height: 18px;
     text-align: center;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     margin: 0;
     margin-bottom: 16px;
 }
@@ -121,10 +117,52 @@
 /* Tablet */
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
 
+    .div_3_container {
+        padding: 0px 97px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
 }
 
 /* Desctop */
 @media only screen and (min-width: 1440px) {
+
+    .div_3_container {
+        padding: 0px 165px;
+        padding-bottom: 151px;
+        padding-top: 140px;
+    }
+
+    .workers_container {
+        display: flex;
+
+    }
+
+    .topic {
+        width: 932px;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;    
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .quotes {
+        text-align: center;
+    }
+
+    .persone {
+        margin-top: 24px;
+    }
+
+    .job_position {
+        margin-bottom: 32px;
+    }
+
 
 }
 
