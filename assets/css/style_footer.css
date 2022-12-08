@@ -1,7 +1,6 @@
 .footer_container {
     min-width: 320px;
     background-color: #002529;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -10,11 +9,7 @@
     padding-bottom: 64px;
 }
 
-h1 {
-    color: #FFFFFF;
-}
-
-ul {
+.content ul {
     color: #FFFFFF;
     list-style-type: none;
     margin: 24px;
@@ -24,7 +19,7 @@ ul {
     gap: 24px;
 }
 
-p {
+.location, .copyright p {
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.6;
