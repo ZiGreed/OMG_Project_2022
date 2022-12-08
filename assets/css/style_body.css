@@ -1,5 +1,9 @@
-Body {
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
     margin: 0;
     font-family: 'Livvic';
     font-style: normal;
-}
+  }
