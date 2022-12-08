@@ -35,7 +35,7 @@
 }
 
 .sidenav a:hover {
-  color: #002529;
+  color: #F67E7E;
 }
 
 .sidenav #contact:hover {
@@ -66,6 +66,8 @@
   margin-top: 36px;
   border: 2px solid #ffffff;
   border-radius: 24px;
+  width: 153px;
+  height: 43px;
 }
 
 .cover {
@@ -92,7 +94,6 @@
   .header {
     padding: 64px 40px;
     justify-content: left;
-    align-items: center;
     text-align: center;
   }
 
@@ -101,22 +102,30 @@
   }
 
   .cover {
-    display: none !important;
+    display: none;
     z-index: -1;
   }
 
   .sidenav {
     display: flex;
-    position: relative;
+    position: inherit;
     overflow-x: visible;
     padding: 0;
     align-items: center;
     transition: 0;
     background-color: #014e56;
+    width: 100% !important;
+  }
+
+  .right{
+    margin-left: auto; 
+    margin-right: 0;
   }
 
   a#contact {
     padding: 8px 32px 8px 32px;
+    width: 153px;
+    height: 43px;
     margin-left: 10px;
     background-color: #014e56;
   }
@@ -125,8 +134,8 @@
     /* margin: top, right, bottom, left; */
     margin: 0;
     white-space: nowrap;
-    position: fixed;
-    right: 40px;
+    position: relative;
+    flex-grow: 3;    
   }
 
   .sidenav img {
@@ -155,21 +164,28 @@
     padding: 0;
     align-items: center;
     transition: 0;
+    width: 100% !important;
     background-color: #014e56;
+  }
+
+  .right{
+    margin-left: auto; 
+    margin-right: 0;
   }
 
   a#contact {
     padding: 8px 32px 8px 32px;
     margin-left: 10px;
     background-color: #014e56;
+    width: 153px;
+    height: 43px;
   }
 
   .sidenav #contact {
     /* margin: top, right, bottom, left; */
     margin: 0;
     white-space: nowrap;
-    position: fixed;
-    right: 165px;
+    left: 0px;
   }
 
   .sidenav img {
