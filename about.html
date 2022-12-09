@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <!-- connection with js files -->
-    <script src="script_head.js" defer></script>
+    <script type="text/javascript" src="assets/javascript/script_head.js" charset="utf-8" defer></script>
     <script src="script_body.js" defer></script>
     <script src="script_footer.js" defer></script>
     <!-- connection with css files -->
@@ -24,9 +24,22 @@
 
 <body>
     <!-- header -->
-    <header>
-
+    <header class="header">
+        <a href="/index.html"><img src="assets/image/logo.svg" alt="logo" class="headerlogo"></a>
+        <div id="openNav">
+            <span onclick="openNav()">&#9776;</span>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="/index.html">home</a>
+            <a href="/about.html">about</a>
+            <div class="right">
+            <a href="/contact.html" id="contact">contact us</a>
+            </div>
+            <img src="assets/image/bg-pattern-about-1-mobile-nav-1.svg" alt="about-nav" class="menuimg">
+        </div>
     </header>
+    <div id="cover" class="cover" onclick="closeNav()"></div>
 
     <main>
         <!-- div 1 -->
