@@ -59,6 +59,17 @@
     fill: #F67E7E;
 }
 
+ul li a {
+    margin: 0px;
+    padding: 0;
+    padding-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 ul li a:hover{
     color: #F67E7E;
 }
@@ -157,18 +168,6 @@ ul li a:hover{
         height: 40.63px;
 
     }
-
-    ul li a {
-        margin: 0px;
-        padding: 0;
-        padding-bottom: 7px;
-        display: flex;
-        justify-content: center;
-        gap: 24px;
-        text-decoration: none;
-        color: #FFFFFF;
-    }
-
 
     .soc_media {
         margin-top: 0;
