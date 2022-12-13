@@ -45,6 +45,11 @@
     text-align: center;
 }
 
+.button :hover {
+    background-color:#012F34;
+    color: #FFFFFF;
+}
+
 .button a{
     font-size: 18px;
     line-height: 28px;
