@@ -20,3 +20,112 @@
 
 
 /* div 4 */
+
+.div4_container{
+    min-width: 320px;
+    min-height: 302px;
+    background-color: rgb(246, 126, 126);
+    background-image: url("./../image/bg-pattern-home-6-about-5.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.R_t_g_s{
+    font-size: 32px;
+    font-weight: 700;
+    color:rgba(1, 47, 52, 1);
+    line-height: 32px;
+    margin: 24px 20px;
+    text-align: center;
+}
+
+.button a{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: rgba(1, 47, 52, 1);
+    display: inline-block;
+    border: 2px solid #012F34;
+    padding: 9px 30px;
+    border-radius: 24px;
+    margin-bottom: 83px;
+    text-decoration: none;
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 1439px) and (min-width: 768px){
+    .div4_container{
+        min-height: 200px;
+        flex-flow: row;
+        background-position: 0px 78px;
+        gap: 84px;
+    }
+    
+    
+    
+    .R_t_g_s{
+        font-size: 32px;
+        font-weight: 700;
+        color:rgba(1, 47, 52, 1);
+        line-height: 32px;
+        margin: 0px 0px;
+        text-align: center;
+    }
+    
+
+    .button a{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        color: rgba(1, 47, 52, 1);
+        display: inline-block;
+        border: 2px solid #012F34;
+        padding: 9px 30px;
+        text-align: center;
+        border-radius: 24px;
+        margin-bottom: 0px;
+        text-decoration: none;
+    }
+    
+}
+/* Desctop */
+@media only screen and (min-width: 1440px) {
+    .div4_container{
+        min-height: 200px;
+        flex-flow: row;
+        gap: 260px;
+    }
+    
+    
+    
+    .R_t_g_s{
+        font-weight: 700;
+        font-size: 48px;
+        color:rgba(1, 47, 52, 1);
+        line-height: 32px;
+        margin: 0px 0px;
+        text-align: center;
+    }
+    
+
+    .button a{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        color: rgba(1, 47, 52, 1);
+        display: inline-block;
+        border: 2px solid #012F34;
+        padding: 9px 30px;
+        text-align: center;
+        border-radius: 24px;
+        margin-bottom: 0px;
+        text-decoration: none;
+    }
+}
