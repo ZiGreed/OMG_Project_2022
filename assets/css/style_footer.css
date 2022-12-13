@@ -110,7 +110,7 @@ ul li a:hover{
         justify-content: left;
     }
 
-    ul {
+    .content ul {
         margin: 0px;
         padding: 0;
         display: flex;
@@ -173,6 +173,14 @@ ul li a:hover{
         margin-top: 0;
         margin-bottom: 0;
         justify-content: end;
+    }
+
+    .content ul {
+        margin: 0px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
     }
 
     .copyright {
