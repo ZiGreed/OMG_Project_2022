@@ -1,0 +1,197 @@
+/* div 1 */
+
+@font-face {
+    src: local('Livvic') url(/assets/fonts/Livvic/Livvic-Bold.woff) format("woff") , url(/assets/fonts/Livvic/Livvic-Bold.woff2) format("woff2"); 
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    src: local('Livvic') url(/assets/fonts/Livvic/Livvic-SemiBold.woff) format("woff") , url(/assets/fonts/Livvic/Livvic-SemiBold.woff2) format("woff2"); 
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+}   
+
+.find_all {
+    display: flex;
+    flex-direction: column;
+    background-color: #014E56;
+    margin:0 ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 32px;
+    color: #ffffff;
+}
+
+.findTheBest{
+    margin:0;
+    background-color: #014E56;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;   
+}
+
+.tal{
+    color: #F67E7E;
+}
+
+.find_all p{
+    margin-top:18px;
+    margin-bottom: 97px;
+    padding: 0px 24px 0px 24px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;    
+}
+
+.ico img{
+    background-color: #014E56;
+    height: 100px;
+    padding: 0px 8px 0px 9px;
+}
+
+.icu img{
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        left: 1px;
+        top: 2px;
+        z-index: -1;
+    }
+
+/* Tablet */
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
+
+    .find_all {
+        display: flex;
+        flex-direction: column;
+        background-color: #014E56;
+        margin:0 ;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: #ffffff;
+    }
+    
+    .findTheBest{
+        margin:0;
+        background-color: #014E56;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 56px;
+        padding: 0;
+    }
+
+    .findTheBest h1{
+        padding: 0px;
+    }
+    
+    .tal{
+        color: #F67E7E;
+    }
+    
+    .find_all p{
+        margin-top: 24px;
+        margin-bottom: 156px;
+        padding: 0px 156px 0px 155px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;    
+    }
+    
+    .ico img{
+        background-color: #014E56;
+        height: 100px;
+        padding: 0px 204px 0px 206px;
+    }
+
+    .icu img{
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        left: 1px;
+        top: 2px;
+        z-index: -1;
+    }
+
+}
+
+/* Desctop */
+@media only screen and (min-width: 1440px) {
+
+    .find_all {
+        position: absolute;
+        background-color: #014E56;
+        color: #ffffff;
+        width: 1440px;
+        height: 506px;
+        padding-top: 0px !important;
+        z-index: -1;
+    }
+    
+    .findTheBest{
+        width: 635px;
+        height: 200px;
+        background-color: #014E56;
+        position: absolute;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 100px;
+        left: 165px;
+        top: 56px;
+        text-align: left;
+        
+    }
+    
+    .tal{
+        color: #F67E7E;
+    }
+    
+    .find_all p{
+        background-color: #014E56;
+        text-align: left;
+        position: absolute;
+        height: 112px;
+        Width: 445px;
+        left: 830px;
+        top: 139px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .ico img{
+        padding: 0px !important;
+        position: absolute;
+        z-index: 0;
+        width: 358px;
+        height: 100px;
+        left: 917px;
+        right: 165;
+        top: 605px;
+    }
+
+    .icu img{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -100px;
+        top: 250px;
+    }
+
+    .pug{
+        position: absolute;
+        height: 4px;
+        width: 50px;
+        left: 855px;
+        top: 252px;
+        border-radius: 0px;
+        background: #79C8C7;
+    }
+}
