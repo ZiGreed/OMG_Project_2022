@@ -57,6 +57,7 @@
 
 .soc_media svg:hover {
     fill: #F67E7E;
+    transition: all 0.5s;
 }
 
 ul li a {
@@ -72,6 +73,7 @@ ul li a {
 
 ul li a:hover{
     color: #F67E7E;
+    transition: all 0.5s;
 }
 
 
