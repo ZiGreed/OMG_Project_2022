@@ -199,6 +199,7 @@
 .button :hover {
     background-color:#012F34;
     color: #FFFFFF;
+    transition: all 0.5s;
 }
 
 .button a{

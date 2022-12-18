@@ -278,6 +278,7 @@
     }
 
     .directors {
+        max-width: 864px;
         padding: 48px 0px;
         display: flex;
         flex-direction: row;
@@ -285,6 +286,7 @@
         justify-content: center;
         align-content: center;
         gap: 76px 11px;
+        margin: auto;
     }
 
     .director {
@@ -310,6 +312,8 @@
         justify-content: center;
         align-content: center;
         gap: 76px 30px;
+        max-width: 1440px;
+        margin: auto;
     }
 
     .director {
@@ -364,6 +368,7 @@
 .button :hover {
     background-color: #012F34;
     color: #FFFFFF;
+    transition: all 0.5s;
 }
 
 .button a {

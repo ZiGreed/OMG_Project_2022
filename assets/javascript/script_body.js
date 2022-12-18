@@ -18,3 +18,53 @@ if (buttons.length) {
     });
   });
 }
+
+
+
+/////// Contact_Div_1 ///////
+
+
+const validate = new window.JustValidate("#form");
+validate
+  .addField(
+    "#name",
+    [
+      {
+        rule: "required",
+        errorMessage: "Please enter your name",
+      },
+      {
+        rule: "minLength",
+        value: 3,
+        errorMessage: "Name is too short",
+      },
+      {
+        rule: "maxLength",
+        value: 10,
+        errorMessage: "Name is too long",
+      },
+    ],
+    {
+      errorFieldCssClass: "error-field",
+      errorLabelCssClass: "error-label",
+      errorsContainer: "#name-errors",
+    }
+  )
+  .addField(
+    "#email",
+    [
+      {
+        rule: "required",
+        errorMessage: "Please fill email field",
+      },
+      {
+        rule: "email",
+        errorMessage: "Email is not valid",
+      },
+    ],
+    {
+      errorFieldCssClass: "error-field",
+      errorLabelCssClass: "error-label",
+      errorsContainer: "#email-errors",
+    }
+  );
