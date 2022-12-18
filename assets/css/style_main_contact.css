@@ -1,22 +1,219 @@
 /* div 1 */
 
+input:focus {
+    outline: none;
+}
+
+.error-field {
+    border: 1px solid rgb(117, 8, 8);
+    box-shadow: 3px 3px 20px rgb(219, 76, 63);
+    ;
+}
+
+.error-label {
+    background-color: rgb(242, 183, 183);
+    color: rgb(117, 8, 8) !important;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.contact_div {
+    background-color: #014E56;
+    padding: 0px 24px;
+    background-image: url(/assets/image/bg-pattern-contact-2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom -112.5px right -112.5px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+}
+
+.c_a_u_a h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.c_a_u_a h2 {
+    color: #F67E7E;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.c_a_u_a p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: auto 0;
+}
+
+.c_a_u_a .container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 24px;
+}
+
+.c_a_u_a .container .block {
+    display: flex;
+    gap: 23px;
+}
+
+.block img {
+    width: 72px;
+    height: 72px;
+}
+
+label {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: left;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
 
 
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Livvic';
+    color: #FFFFFF;
+    background-color: #014E56;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Livvic';
+    color: #FFFFFF;
+    background-color: #014E56;
+    resize: none;
+    padding: 0;
+    height: 83px;
+    margin-bottom: 24px;
+    text-indent: 16px;
+    margin-top: 16px;
+}
 
 
+.contact_form ::placeholder {
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.11538461595773697px;
+    text-align: left;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
 
-/* div 2 */
+.contact_form button {
+    background-color: #FFFFFF;
+    color: #004047;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 88px;
+}
 
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
 
+    .contact_div {
+        padding: 0px 114px;
+        background-image: url("./../image/bg-pattern-about-2-contact-1.svg"), url("/assets/image/bg-pattern-contact-2.svg");
+        background-repeat: no-repeat;
+        background-position: -100px 0px, bottom right -100px;
+        gap: 48px;
+    }
 
+    .contact_form button {
+        margin-bottom: 112px;
+    }
 
+    .c_a_u_a h1 {
+        font-size: 64px;
+        padding-top: 53px;
+    }
 
+}
 
-/* div 3 */
+@media only screen and (min-width: 1440px) {
+    
+    body {
+        background-color: #014E56;
+    }
 
+    .contact_div {
+        padding: 0px 164px 120px;
+        margin-top: 56px;
+        background-image: url("./../image/bg-pattern-about-2-contact-1.svg"), url("/assets/image/bg-pattern-contact-2.svg");
+        background-repeat: no-repeat;
+        background-position: -100px 0px, bottom right -100px;
+        gap: 119px;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
 
+    .contact_form button {
+        margin-bottom: 0px;
+    }
 
+    .c_a_u_a h1 {
+        font-size: 64px;
+        padding-top: 0px;
+        text-align: left;
+        line-height: 100px;
+    }
 
+    .c_a_u_a h2 {
+        text-align: left;
+        line-height: 48px;
+        margin: 0;
+        margin-bottom: 32px;
+    }
 
+    .contact_form {
+        width: 540px;
+    }
 
-/* div 4 */
+    .c_a_u_a .container {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 8px;
+    }
+    
+    .c_a_u_a .container .block {
+        display: flex;
+        gap: 23px;
+    }
+
+}
