@@ -7,6 +7,9 @@
     text-align: center;
     background-color: #014E56;
     z-index: 1;
+    background-image: url("./../image/bg-pattern-about-1-mobile-nav-1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom -100px right -100px;
 }
 
 .about-section h1 {
@@ -20,14 +23,7 @@
     margin: 0;
     font-weight: bold;
     font-size: 15px;
-    padding: 16px 24px 8px 24px;
-}
-
-.img-div {
-    width: 100%;
-    position: relative;
-    height: 100px;
-
+    padding: 16px 24px 108px 24px;
 }
 
 .rectangle-img {
@@ -43,11 +39,10 @@
 
 @media only screen and (max-width: 1439px) and (min-width: 768px) {
 
-    .about-section p {
-        color: #FFFFFF;
-        font-weight: bold;
-        margin-bottom: 100px;
-        font-size: 18px;
+    .about-section {
+        background-image: url("./../image/bg-pattern-about-1-mobile-nav-1.svg");
+        background-repeat: no-repeat;
+        background-position: bottom 0px right -100px;
     }
 
     .rectangle-img {
@@ -67,7 +62,7 @@
         font-weight: bold;
         font-size: 18px;
         /* margin: top, right, bottom, left; */
-        padding: 34px 158px 102px 153px;
+        padding: 34px 153px 102px 158px;
     }
 
     .about-img {
@@ -78,10 +73,6 @@
         position: absolute;
     }
 
-    .img-div {
-        position: relative;
-        height: 0px;
-    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -90,8 +81,11 @@
         justify-content: center;
         flex-flow: nowrap;
         align-items: center;
-        padding: 64px 0px 120px 165px;
+        padding: 64px 165px 60px 165px;
         text-align: left;
+        background-image: url("./../image/bg-pattern-about-1-mobile-nav-1.svg");
+        background-repeat: no-repeat;
+        background-position: bottom 0px right -100px;
 
     }
 
@@ -106,7 +100,6 @@
         margin: 0;
         font-size: 18px;
         /* margin: top, right, bottom, left; */
-        padding: 0px 0px 30px 0px;
     }
 
     .about-section h1 {
@@ -123,11 +116,6 @@
         position: absolute;
     }
 
-    .img-div {
-        position: relative;
-        height: 0px;
-
-    }
 }
 
 
