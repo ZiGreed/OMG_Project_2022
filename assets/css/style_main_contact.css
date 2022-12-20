@@ -1,20 +1,24 @@
 /* div 1 */
-
-input:focus {
+textarea:focus {
     outline: none;
 }
 
+input:focus {
+    outline: none;
+    border-bottom: 1px solid #79C8C7;
+}
+
 .error-field {
-    border: 1px solid rgb(117, 8, 8);
-    box-shadow: 3px 3px 20px rgb(219, 76, 63);
-    ;
+    border-bottom: 1px solid #F67E7E;
 }
 
 .error-label {
-    background-color: rgb(242, 183, 183);
-    color: rgb(117, 8, 8) !important;
-    padding: 5px;
-    margin-top: 5px;
+    color: #F67E7E !important; 
+    font-family: 'Livvic';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
 }
 
 .contact_div {
@@ -110,7 +114,7 @@ textarea {
     resize: none;
     padding: 0;
     height: 83px;
-    margin-bottom: 24px;
+
     text-indent: 16px;
     margin-top: 16px;
 }
@@ -142,6 +146,14 @@ textarea {
     letter-spacing: 0px;
     text-align: left;
     margin-bottom: 88px;
+    margin-top: 24px;
+}
+
+.contact_form button:hover {
+    background-color: #004047;
+    color: #FFFFFF;
+    transition: all 0.5s;
+    border: 2px solid #FFFFFF;
 }
 
 @media only screen and (max-width: 1439px) and (min-width: 768px) {

@@ -31,7 +31,7 @@ validate
     [
       {
         rule: "required",
-        errorMessage: "Please enter your name",
+        errorMessage: "This field is required",
       },
       {
         rule: "minLength",
@@ -55,7 +55,7 @@ validate
     [
       {
         rule: "required",
-        errorMessage: "Please fill email field",
+        errorMessage: "This field is required",
       },
       {
         rule: "email",
@@ -66,5 +66,47 @@ validate
       errorFieldCssClass: "error-field",
       errorLabelCssClass: "error-label",
       errorsContainer: "#email-errors",
+    }
+  )
+  .addField(
+    "#company_name",
+    [
+      {
+        rule: "required",
+        errorMessage: "This field is required",
+      },
+    ],
+    {
+      errorFieldCssClass: "error-field",
+      errorLabelCssClass: "error-label",
+      errorsContainer: "#company_name-errors",
+    }
+  )
+  .addField(
+    "#title",
+    [
+      {
+        rule: "required",
+        errorMessage: "This field is required",
+      },
+    ],
+    {
+      errorFieldCssClass: "error-field",
+      errorLabelCssClass: "error-label",
+      errorsContainer: "#title-errors",
+    }
+  )
+  .addField(
+    "#subject",
+    [
+      {
+        rule: "required",
+        errorMessage: "This field is required",
+      },
+    ],
+    {
+      errorFieldCssClass: "error-field",
+      errorLabelCssClass: "error-label",
+      errorsContainer: "#subject-errors",
     }
   );
