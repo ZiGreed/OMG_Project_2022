@@ -145,7 +145,7 @@
         font-weight: 700;
         font-size: 48px;
         line-height: 48px;
-        text-align: center;    
+        text-align: center;
         margin: 0;
         margin-left: auto;
         margin-right: auto;
@@ -172,7 +172,7 @@
 
 /* div 4 */
 
-.div4_container{
+.div4_container {
     min-width: 320px;
     min-height: 302px;
     background-color: rgb(246, 126, 126);
@@ -187,22 +187,22 @@
 
 
 
-.R_t_g_s{
+.R_t_g_s {
     font-size: 32px;
     font-weight: 700;
-    color:rgba(1, 47, 52, 1);
+    color: rgba(1, 47, 52, 1);
     line-height: 32px;
     margin: 24px 20px;
     text-align: center;
 }
 
 .div4_container .button :hover {
-    background-color:#012F34;
+    background-color: #012F34;
     color: #FFFFFF;
     transition: all 0.5s;
 }
 
-.button a{
+.button a {
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
@@ -217,27 +217,27 @@
 
 
 /* Tablet */
-@media only screen and (max-width: 1439px) and (min-width: 768px){
-    .div4_container{
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
+    .div4_container {
         min-height: 200px;
         flex-flow: row;
         background-position: 0px 78px;
         gap: 84px;
     }
-    
-    
-    
-    .R_t_g_s{
+
+
+
+    .R_t_g_s {
         font-size: 32px;
         font-weight: 700;
-        color:rgba(1, 47, 52, 1);
+        color: rgba(1, 47, 52, 1);
         line-height: 32px;
         margin: 0px 0px;
         text-align: center;
     }
-    
 
-    .button a{
+
+    .button a {
         font-size: 18px;
         line-height: 28px;
         font-weight: 600;
@@ -250,29 +250,30 @@
         margin-bottom: 0px;
         text-decoration: none;
     }
-    
+
 }
+
 /* Desctop */
 @media only screen and (min-width: 1440px) {
-    .div4_container{
+    .div4_container {
         min-height: 200px;
         flex-flow: row;
         gap: 260px;
     }
-    
-    
-    
-    .R_t_g_s{
+
+
+
+    .R_t_g_s {
         font-weight: 700;
         font-size: 48px;
-        color:rgba(1, 47, 52, 1);
+        color: rgba(1, 47, 52, 1);
         line-height: 32px;
         margin: 0px 0px;
         text-align: center;
     }
-    
 
-    .button a{
+
+    .button a {
         font-size: 18px;
         line-height: 28px;
         font-weight: 600;
