@@ -1,16 +1,477 @@
 /* div 1 */
 
+@font-face {
+    src: local('Livvic') url(/assets/fonts/Livvic/Livvic-Bold.woff) format("woff") , url(/assets/fonts/Livvic/Livvic-Bold.woff2) format("woff2"); 
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+}
 
+@font-face {
+    src: local('Livvic') url(/assets/fonts/Livvic/Livvic-SemiBold.woff) format("woff") , url(/assets/fonts/Livvic/Livvic-SemiBold.woff2) format("woff2"); 
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+}   
 
+.find_all {
+    display: flex;
+    flex-direction: column;
+    background-color: #014E56;
+    margin:0 ;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 32px;
+    color: #ffffff;
+}
 
+.findTheBest{
+    margin:0;
+    background-color: #014E56;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;   
+}
 
+.tal{
+    color: #F67E7E;
+}
+
+.find_all p{
+    margin-top:18px;
+    margin-bottom: 97px;
+    padding: 0px 24px 0px 24px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;    
+}
+
+.ico {
+    background-color: #014E56;
+    text-align: center; 
+    min-width: 375px;
+    max-width: 767px;
+    margin: 0px !important;
+    height: 100px;
+}
+
+.icu img{
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        left: 1px;
+        top: 2px;
+        z-index: -1;
+    }
+
+/* Tablet */
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
+
+    .find_all {
+        display: flex;
+        flex-direction: column;
+        background-color: #014E56;
+        margin:0 ;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: #ffffff;
+    }
+    
+    .findTheBest{
+        margin:0;
+        background-color: #014E56;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 56px;
+        padding: 0;
+    }
+
+    .findTheBest h1{
+        padding: 0px;
+    }
+    
+    .tal{
+        color: #F67E7E;
+    }
+    
+    .find_all p{
+        margin-top: 24px;
+        margin-bottom: 156px;
+        padding: 0px 156px 0px 155px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;    
+    }
+    
+    .ico {
+        background-color: #014E56;
+        text-align: center; 
+        min-width: 768px;
+        max-width: 1439px;
+        margin: 0px !important;
+        height: 100px;
+    }
+
+    .icu img{
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        left: 1px;
+        top: 2px;
+        z-index: -1;
+    }
+
+}
+
+/* Desctop */
+@media only screen and (min-width: 1440px) {
+
+    .tri {
+        height: 506px;
+        background-color: #014E56;
+        width: 100% !important;
+    }
+
+    .find_all {
+        color: #ffffff;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding: 0px;
+        height: 256px;
+    }
+    
+    .find_all h1{
+        width: 635px;
+        height: 200px;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 100px;
+        text-align: left;  
+        margin: 56px 0px 0px 165px;
+    }
+    
+    .tal{
+        color: #F67E7E;
+    }
+    
+    .find_all p{
+        position: absolute;
+        text-align: left;
+        height: 112px;
+        margin: 139px 165px 5px 0px;
+        left: 830px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0px;
+    }
+    
+    .ico img{
+        position: absolute;
+        height: 100px;
+        right: 165px;
+        top: 600px;
+    }
+
+    .icu img{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: -100px;
+        top: 250px;
+        z-index: 0;
+    }
+
+    .pug{
+        position: absolute;
+        height: 4px;
+        width: 50px;
+        left: 830px;
+        top: 250px;
+        border-radius: 0px;
+        background: #79C8C7;
+    }
+}
 
 /* div 2 */
+@media only screen and (max-width: 767px) and (min-width: 375px) {
 
+    .as{
+        background-color: #012F34;
+        height: 1073px;
+    }
+    .al{
+        height: 404px;
+        display: flex;
+        padding: 0px !important;
+        background-image: url("./../image/Rectangle.svg"), url("./../image/bg-pattern-home-3.svg"), url("./../image/icon-person.svg");
+        background-repeat: no-repeat;
+        background-position: 24px 64px, top right -100px, center 316px;
+    }
 
+    .al h1{
+        margin: 100px 111px 0px 24px;
+        padding: 0px !important;
+        color: #ffffff;
+        text-align: left;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        height: 160px;
+    }
+    .asd{
+        height: 669px;
+    }
+    .ay{
+        height: 111px;
+        margin: 0px;
 
+    }
+    .ay h1{
+        height: 28px;
+        margin: 0px 24px 4px 24px;
+        font-weight: 700;   
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #F67E7E;
+        padding: 0px !important;
+    }
+    .ay p{
+        height: 75px;
+        margin: 4px 24px 0px 24px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0px !important;
+    }
+    .ai{
+        display: flex;
+        flex-direction: column;  
+        height: 558px;
+        padding: 0px !important;
+        background-image: url("./../image/icon-cog.svg"), url("./../image/icon-chart.svg");
+        background-repeat: no-repeat;
+        background-position: center 48px, center 295px;
+    }
 
+    .ai h1{
+        height: 28px;
+        margin: 136px 24px 4px 24px;
+        font-weight: 700;   
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #F67E7E;
+        padding: 0px !important;
+    }
 
+    .ai p{
+        height: 75px;
+        margin: 4px 24px 0px 24px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0px !important;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
+
+    .al{
+        height: 264px;
+        background-color: #012F34;
+        display: flex;
+        padding: 0px !important;
+        background-image: url("./../image/Rectangle.svg"), url("./../image/bg-pattern-home-3.svg");
+        background-repeat: no-repeat;
+        background-position: 98px 100px, top right -100px;
+    }
+
+    .al h1{
+        margin: 136px 225px 64px 98px;
+        padding: 0px !important;
+        color: #ffffff;
+        text-align: left;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        height: 64px;
+    }
+
+    .ay{
+        display: flex;
+        flex-direction: column;  
+        height: 94;
+        background-color: #012F34;
+        padding: 0px !important;
+        background-image: url("./../image/icon-person.svg");
+        background-repeat: no-repeat;
+        background-position: 104px 0px;
+
+    }
+
+    .ay h1{
+        height: 28px;
+        margin: 0px 98px 8px 192px;
+        font-weight: 700;   
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        color: #F67E7E;
+        padding: 0px !important;
+    }
+
+    .ay p{
+        height: 50px;
+        margin: 8px 98px 0px 192px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        color: #FFFFFF;
+        padding: 0px !important;
+    }
+
+    .ai{
+        display: flex;
+        flex-direction: column;  
+        height: 352px;
+        background-color: #012F34;
+        padding: 0px !important;
+        background-image: url("./../image/icon-cog.svg"), url("./../image/icon-chart.svg");
+        background-repeat: no-repeat;
+        background-position: 97px 32px, 97px 158px;
+
+    }
+
+    .ai h1{
+        height: 28px;
+        margin: 32px 98px 8px 192px;
+        font-weight: 700;   
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+        color: #F67E7E;
+        padding: 0px !important;
+    }
+
+    .ai p{
+        height: 50px;
+        margin: 8px 98px 0px 192px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        color: #FFFFFF;
+        padding: 0px !important;
+    }
+}
+
+/* Desctop */
+
+@media only screen and (min-width: 1440px) {
+
+    .as{
+        background-color: #F67E7E;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        padding: 0px !important;
+        height: 684px;
+        background-color: #012F34;
+    }
+
+    .al{
+        height: 684px;
+        width: 735px;
+        padding: 0px !important;
+        background-image: url("./../image/Rectangle.svg");
+        background-repeat: no-repeat;
+        background-position: 165px 140px;
+    }
+
+    .al h1{
+        margin: 198px 125px 342px 165px;
+        padding: 0px !important;
+        color: #ffffff;
+        text-align: left;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        width: 445px;
+    }
+
+    .asd{
+        position: absolute;
+        flex-direction: column;
+        padding: 0px !important;
+        height: 684px;
+        background-image: url("./../image/icon-person.svg"), url("./../image/icon-cog.svg"), url("./../image/icon-chart.svg");
+        background-repeat: no-repeat;
+        background-position: 0px 198px, 0px 324px, 0px 450px;
+        left: 735px;
+        background-image: url("./../image/bg-pattern-home-3.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right -100px;
+
+    }
+
+    .ay{
+        height: 94px;
+        padding: 0px !important;
+    }
+    .ay h1{
+        height: 28px;
+        padding: 0px !important;
+        margin: 198px 165px 16px 95px;
+        color: #F67E7E;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .ay p{
+        padding: 0px !important;
+        margin: 0px 165px 32px 95px;
+        color: #FFFFFF;
+        height: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .ai h1{
+
+        margin: 32px 165px 16px 95px;
+        padding: 0px !important;
+        color: #F67E7E;
+        height: 28px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .ai p{
+
+        padding: 0px !important;
+        margin: 16px 165px 0px 95px;
+        color: #FFFFFF;
+        height: 50px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
 
 /* div 3 */
 .div_3_container {
@@ -145,7 +606,7 @@
         font-weight: 700;
         font-size: 48px;
         line-height: 48px;
-        text-align: center;
+        text-align: center;    
         margin: 0;
         margin-left: auto;
         margin-right: auto;
@@ -172,7 +633,7 @@
 
 /* div 4 */
 
-.div4_container {
+.div4_container{
     min-width: 320px;
     min-height: 302px;
     background-color: rgb(246, 126, 126);
@@ -187,22 +648,22 @@
 
 
 
-.R_t_g_s {
+.R_t_g_s{
     font-size: 32px;
     font-weight: 700;
-    color: rgba(1, 47, 52, 1);
+    color:rgba(1, 47, 52, 1);
     line-height: 32px;
     margin: 24px 20px;
     text-align: center;
 }
 
 .div4_container .button :hover {
-    background-color: #012F34;
+    background-color:#012F34;
     color: #FFFFFF;
     transition: all 0.5s;
 }
 
-.button a {
+.button a{
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
@@ -217,27 +678,27 @@
 
 
 /* Tablet */
-@media only screen and (max-width: 1439px) and (min-width: 768px) {
-    .div4_container {
+@media only screen and (max-width: 1439px) and (min-width: 768px){
+    .div4_container{
         min-height: 200px;
         flex-flow: row;
         background-position: 0px 78px;
         gap: 84px;
     }
-
-
-
-    .R_t_g_s {
+    
+    
+    
+    .R_t_g_s{
         font-size: 32px;
         font-weight: 700;
-        color: rgba(1, 47, 52, 1);
+        color:rgba(1, 47, 52, 1);
         line-height: 32px;
         margin: 0px 0px;
         text-align: center;
     }
+    
 
-
-    .button a {
+    .button a{
         font-size: 18px;
         line-height: 28px;
         font-weight: 600;
@@ -250,30 +711,29 @@
         margin-bottom: 0px;
         text-decoration: none;
     }
-
+    
 }
-
 /* Desctop */
 @media only screen and (min-width: 1440px) {
-    .div4_container {
+    .div4_container{
         min-height: 200px;
         flex-flow: row;
         gap: 260px;
     }
-
-
-
-    .R_t_g_s {
+    
+    
+    
+    .R_t_g_s{
         font-weight: 700;
         font-size: 48px;
-        color: rgba(1, 47, 52, 1);
+        color:rgba(1, 47, 52, 1);
         line-height: 32px;
         margin: 0px 0px;
         text-align: center;
     }
+    
 
-
-    .button a {
+    .button a{
         font-size: 18px;
         line-height: 28px;
         font-weight: 600;

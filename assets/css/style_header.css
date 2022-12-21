@@ -118,8 +118,8 @@
     width: 100% !important;
   }
 
-  .right {
-    margin-left: auto;
+  .right{
+    margin-left: auto; 
     margin-right: 0;
   }
 
@@ -136,7 +136,7 @@
     margin: 0;
     white-space: nowrap;
     position: relative;
-    flex-grow: 3;
+    flex-grow: 3;    
   }
 
   .sidenav img {
@@ -147,7 +147,6 @@
     display: none;
   }
 }
-
 /* Desktop */
 @media only screen and (min-width: 1440px) {
   #openNav {
@@ -170,8 +169,8 @@
     background-color: #014e56;
   }
 
-  .right {
-    margin-left: auto;
+  .right{
+    margin-left: auto; 
     margin-right: 0;
   }
 
@@ -180,7 +179,7 @@
     margin-left: 10px;
     background-color: #014e56;
     width: 153px;
-    height: 43px;
+    height: 48px;
   }
 
   .sidenav #contact {
@@ -203,5 +202,9 @@
     justify-content: left;
     align-items: center;
     text-align: center;
+    /* height: 32px; */
+  }
+  .headerlogo {
+    height: 43px;
   }
 }
