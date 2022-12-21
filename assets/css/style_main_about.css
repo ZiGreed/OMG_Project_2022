@@ -21,9 +21,13 @@
 .about-section p {
     color: #FFFFFF;
     margin: 0;
-    font-weight: bold;
-    font-size: 15px;
     padding: 16px 24px 108px 24px;
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
 }
 
 .rectangle-img {
@@ -59,10 +63,13 @@
     .about-section p {
         color: #FFFFFF;
         margin: 0;
-        font-weight: bold;
-        font-size: 18px;
         /* margin: top, right, bottom, left; */
         padding: 34px 153px 102px 158px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
     }
 
     .about-img {
@@ -97,9 +104,13 @@
 
     .about-section p {
         color: #FFFFFF;
-        margin: 0;
-        font-size: 18px;
         /* margin: top, right, bottom, left; */
+        font-family: Livvic;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
     }
 
     .about-section h1 {
