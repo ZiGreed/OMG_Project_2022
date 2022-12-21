@@ -118,10 +118,6 @@
 
 }
 
-
-
-
-
 /* div 2 */
 .wrapper {
     background-color: #004047;
@@ -322,10 +318,222 @@
 
 /* div 3 */
 
+@media only screen and (max-width: 767px) and (min-width: 375px) {
+
+    .zx{
+        height: 632px;
+        background: #012F34;
+        margin: 0px !important;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url("./../image/bg-pattern-about-4.svg");
+        background-repeat: no-repeat;
+        background-position: -100px -100px;
 
 
+    }
+
+    .zxc{
+        height: 184px;
+        text-align: center;
+        justify-content: center;
+        margin: 0px !important;
+    }
+
+    .zxc h1{
+        height: 32px;
+        margin: 0px  !important;
+        padding-top: 88px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+    .zxcv{
+        height: 448px;
+        text-align: center;
+        margin: 0px !important;
+        justify-content: center;
+    }
+
+    .zxcv1 img{
+        width: 146.56px;
+        height: 24.19px;
+        margin-bottom: 53px;
+
+    }
+    .zxcv2 img{
+        width: 162.21px;
+        height: 19.92px;
+        margin-bottom: 53px;
+
+    }
+    .zxcv3 img{
+        width: 159.37px;
+        height: 24.19px;
+        margin-bottom: 53px;
+
+    }
+    .zxcv4 img{
+        width: 146.56px;
+        height: 24.19px;
+        margin-bottom: 53px;
+
+        
+    }
+    .zxcv5 img{
+        width: 86.8px;
+        height: 39.84px;
+    }
+
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
+
+    .zx{
+        height: 308px;
+        background: #012F34;
+        margin: 0px !important;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url("./../image/bg-pattern-about-4.svg");
+        background-repeat: no-repeat;
+        background-position: 0px -100px;
 
 
+    }
+
+    .zxc{
+        height: 100px;
+        justify-content: center;
+    }
+
+    .zxc h1{
+        height: 32px;
+        padding-top: 45px !important;
+        margin: 0px !important;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+    .zxcv{
+        height: 121px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 1vw;
+        margin-top: -20px;
+
+        
+    }
+
+    .zxcv img{
+        align-items: center;
+    }
+    .zxcv1 img{
+        width: 103px;
+        height: 17px;
+    }
+    .zxcv2 img{
+        width: 114px;
+        height: 14px;
+    }
+    .zxcv3 img{
+        width: 112px;
+        height: 17px;
+    }
+    .zxcv4 img{
+        width: 103px;
+        height: 17px;
+    }
+    .zxcv5 img{
+        width: 61px;
+        height: 28px;
+    }
+}
+
+/* Desctop */
+
+@media only screen and (min-width: 1440px) {
+
+    .zx{
+        height: 437px;
+        background: #012F34;
+        margin: 0px !important;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url("./../image/bg-pattern-about-4.svg");
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+
+
+    }
+
+    .zxc{
+        height: 188px;
+        text-align: center;
+        justify-content: space-between;
+        margin: 0px !important;
+    }
+
+    .zxc h1{
+        height: 32px;
+        margin-top: 140px;
+        margin-bottom: 0px !important;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+    .zxcv{
+        height: 168px;
+        display: flex;
+        gap: 5.5vw;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 81px;
+    }
+
+    .zxcv img{
+        align-items: center;
+    }
+    .zxcv1 img{
+        width: 165px;
+        height: 28px;
+    }
+    .zxcv2 img{
+        width: 184px;
+        height: 23px;
+    }
+    .zxcv3 img{
+        width: 180px;
+        height: 28px;
+    }
+    .zxcv4 img{
+        width: 165px;
+        height: 28px;
+    }
+    .zxcv5 img{
+        width: 98px;
+        height: 45px;
+    }
+
+}
 
 /* div 4 */
 

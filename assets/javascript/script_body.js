@@ -47,7 +47,6 @@ validate
     {
       errorFieldCssClass: "error-field",
       errorLabelCssClass: "error-label",
-      errorPlaceholderCssClass: "error-placeholder::placeholder",
       errorsContainer: "#name-errors",
     }
   )

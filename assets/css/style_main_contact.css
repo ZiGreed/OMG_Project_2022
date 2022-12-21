@@ -1,7 +1,6 @@
 /* div 1 */
 textarea:focus {
     outline: none;
-    border-bottom: 1px solid #79C8C7;
 }
 
 input:focus {
@@ -13,12 +12,8 @@ input:focus {
     border-bottom: 1px solid #F67E7E;
 }
 
-.error-field::placeholder {
-    color: #F67E7E !important;
-}
-
 .error-label {
-    color: #F67E7E !important;
+    color: #F67E7E !important; 
     font-family: 'Livvic';
     font-style: italic;
     font-weight: 700;
@@ -102,12 +97,7 @@ input {
     width: 100%;
     border: none;
     border-bottom: 1px solid #FFFFFF;
-    font-family: Livvic;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 25px;
-    letter-spacing: -0.11538461595773697px;
-    text-align: left;
+    font-family: 'Livvic';
     color: #FFFFFF;
     background-color: #014E56;
     padding: 16px;
@@ -118,17 +108,13 @@ textarea {
     width: 100%;
     border: none;
     border-bottom: 1px solid #FFFFFF;
-    font-family: Livvic;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 25px;
-    letter-spacing: -0.11538461595773697px;
-    text-align: left;
+    font-family: 'Livvic';
     color: #FFFFFF;
     background-color: #014E56;
     resize: none;
     padding: 0;
     height: 83px;
+
     text-indent: 16px;
     margin-top: 16px;
 }
@@ -192,7 +178,7 @@ textarea {
 }
 
 @media only screen and (min-width: 1440px) {
-
+    
     body {
         background-color: #014E56;
     }
@@ -236,7 +222,7 @@ textarea {
         flex-flow: column wrap;
         gap: 8px;
     }
-
+    
     .c_a_u_a .container .block {
         display: flex;
         gap: 23px;

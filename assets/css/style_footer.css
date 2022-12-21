@@ -19,8 +19,7 @@
     gap: 24px;
 }
 
-.location p,
-.copyright p {
+.location p, .copyright p {
     color: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.6;
@@ -53,7 +52,7 @@
 }
 
 .soc_media svg {
-    fill: #FFFFFF
+    fill:#FFFFFF
 }
 
 .soc_media svg:hover {
@@ -72,7 +71,7 @@ ul li a {
     color: #FFFFFF;
 }
 
-ul li a:hover {
+ul li a:hover{
     color: #F67E7E;
     transition: all 0.5s;
 }
